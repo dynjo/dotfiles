@@ -11,3 +11,6 @@ ln -s ${BASEDIR}/gitignore ~/.gitignore
 
 # aliases
 ln -s ${BASEDIR}/aliases ~/.aliases
+
+# bundler
+ln -s ${BASEDIR}/gemrc ~/.gemrc

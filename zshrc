@@ -5,8 +5,8 @@ fpath=(~/.zsh/completion $fpath)
 autoload -U compinit
 compinit
 
-# use sublime as the editor
-export EDITOR="sub -w"
+# use atom as the editor
+export EDITOR="atom -nw"
 
 # aliases
 if [ -e "$HOME/.aliases" ]; then
@@ -66,10 +66,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="/usr/local/share/npm/bin:$PATH"
 
-# For Golang
-export GOROOT=/usr/local/Cellar/go/1.4.2/libexec
-export GOPATH=/usr/local/Cellar/go/1.4.2/packages
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# Yarn
+export PATH="$PATH:`yarn global bin`"
 
 # PG
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin

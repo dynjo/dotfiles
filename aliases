@@ -15,7 +15,7 @@ alias -g L='| wc -l'
 alias -g ONE="| awk '{ print \$1}'"
 
 # git
-alias git=hub
+# alias git=hub
 alias gs="git status"
 alias gco="git checkout"
 alias show="git browse"
@@ -23,6 +23,3 @@ alias gl="git lg"
 
 # Bundler
 alias b="bundle install"
-
-# iPhone simulator
-alias sim='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app'

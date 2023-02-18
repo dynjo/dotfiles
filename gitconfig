@@ -4,11 +4,11 @@
 	smudge = git media smudge %f
 [user]
 	name = Jan Jones
-	email = jan.jones@oozou.com
+	email = jan@oozou.com
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
-	editor = "sub -w"
+	editor = code --wait
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
@@ -20,4 +20,4 @@
 [push]
 	default = simple
 [credential]
-	helper = osxkeychain
+	helper = cache
